@@ -9,6 +9,9 @@ dolphin 24.08.1-1
 dunst 1.11.0-1
 efibootmgr 18-3
 fastfetch 2.27.1-1
+fcitx5 5.1.11-1
+fcitx5-configtool 5.1.6-1
+fcitx5-mozc 2.26.4632.102.g4d2e3bd-2
 firefox 131.0-1
 fish 3.7.1-2
 flatpak 1:1.15.10-1
@@ -56,6 +59,7 @@ ripgrep 14.1.1-1
 rofi-wayland 1.7.5+wayland3-2
 scrot 1.11.1-1
 sddm 0.21.0-4
+shotcut 24.09-1
 slop 7.6-5
 slurp 1.5.0-1
 smartmontools 7.4-2
