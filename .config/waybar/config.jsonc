@@ -39,22 +39,22 @@
   },
   "clock#simpleclock": {
     "tooltip": false,
-    "format": "  {:%H:%M}",
+    "format": "Time: {:%H:%M}",
   },
   "clock": {
-    "format": "  {:L%a %d %b}",
+    "format": "Date: {:L%a %d %b}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
   },
   "cpu": {
-    "format": "  {usage}%",
+    "format": "CPU: {usage}%",
     "tooltip": true,
     "interval": 1,
   },
   "memory": {
-    "format": "  {used:0.2f}G",
+    "format": "Mem: {used:0.2f}G",
   },
   "pulseaudio": {
-    "format": "{icon} {volume}%",
+    "format": "{icon}   {volume}%",
     "format-muted": "  muted",
     "format-icons": {
       "headphone": " ",
@@ -74,6 +74,14 @@
   "custom/power": {
     "tooltip": false,
     "on-click": "wlogout -p layer-shell &",
-    "format": "⏻ ",
+    "format": "{icon}",
+    "format-icons": {
+      "suspend": "",
+      "logout": "",
+      "reboot": "",
+      "shutdown": "",
+      "default": [" ", " ", " "],
+    },
+    "interval": 1,
   },
 }
