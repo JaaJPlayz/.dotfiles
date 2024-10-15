@@ -15,6 +15,7 @@ if status is-interactive
   alias pyinstall="pip install -r dev-requirements.txt"
 
 	alias fastfetch="fastfetch --logo minix"
+	alias neofetch="fastfetch --logo minix"
 
 	zoxide init fish | source
 	starship init fish | source

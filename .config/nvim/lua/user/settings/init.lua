@@ -32,3 +32,5 @@ vim.opt.undofile = true
 -- split
 vim.opt.splitright = true
 vim.opt.splitbelow = true
+
+vim.opt.scrolloff = 8
