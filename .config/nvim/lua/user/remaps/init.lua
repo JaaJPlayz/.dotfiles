@@ -2,7 +2,6 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
 vim.keymap.set("n", "<esc>", "<cmd>noh<cr>", { silent = true })
-vim.keymap.set("i", "jk", "<esc>", { silent = true })
 
 -- Remap for dealing with word wrap
 vim.keymap.set("n", "k", "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
