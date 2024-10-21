@@ -25,3 +25,7 @@ vim.keymap.set("v", "p", '"_dP', { silent = true })
 -- nvim-tree
 vim.keymap.set("n", "<leader>ee", ":NvimTreeToggle<CR>", { silent = true })
 vim.keymap.set("n", "<leader>ef", ":NvimTreeFindFile<CR>", { silent = true })
+
+-- Neo-tree
+vim.keymap.set("n", "<leader>ee", ":Neotree toggle<CR>", { silent = true })
+vim.keymap.set("n", "<leader>ef", ":Neotree focus<CR>", { silent = true })

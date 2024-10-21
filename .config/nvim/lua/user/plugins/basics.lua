@@ -46,11 +46,6 @@ local M = {
 		event = "BufReadPost",
 		opts = {},
 	},
-	{
-		"lukas-reineke/headlines.nvim",
-		dependencies = "nvim-treesitter/nvim-treesitter",
-		config = true,
-	},
 }
 
 return M

@@ -79,6 +79,7 @@ local M = {
 
 			local servers = {
 				clangd = {},
+        emmet_ls = {},
 				gopls = {},
 				pyright = {},
 				rust_analyzer = {},
@@ -111,6 +112,7 @@ local M = {
 					end,
 				},
 			})
+
 		end,
 	},
 }
