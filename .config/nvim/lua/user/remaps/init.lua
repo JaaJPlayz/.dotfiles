@@ -29,3 +29,12 @@ vim.keymap.set("n", "<leader>ef", ":NvimTreeFindFile<CR>", { silent = true })
 -- Neo-tree
 vim.keymap.set("n", "<leader>ee", ":Neotree toggle<CR>", { silent = true })
 vim.keymap.set("n", "<leader>ef", ":Neotree focus<CR>", { silent = true })
+
+-- Toggleterm
+vim.keymap.set("n", "<leader>tt", ":ToggleTerm<CR>", { silent = true })
+vim.keymap.set("n", "<leader>tf", ":ToggleTerm direction=float<CR>", { silent = true })
+vim.keymap.set("n", "<leader>th", ":ToggleTerm size=10 direction=horizontal<CR>", { silent = true })
+vim.keymap.set("n", "<leader>tv", ":ToggleTerm size=80 direction=vertical<CR>", { silent = true })
+
+-- Trouble
+vim.keymap.set("n", "<leader>xx", ":Trouble<CR>", { silent = true })

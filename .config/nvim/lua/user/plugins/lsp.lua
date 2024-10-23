@@ -79,10 +79,11 @@ local M = {
 
 			local servers = {
 				clangd = {},
-        emmet_ls = {},
+				emmet_ls = {},
 				gopls = {},
 				pyright = {},
 				rust_analyzer = {},
+				black = {},
 				ts_ls = {},
 				lua_ls = {
 					settings = {
@@ -112,7 +113,6 @@ local M = {
 					end,
 				},
 			})
-
 		end,
 	},
 }

@@ -46,6 +46,18 @@ local M = {
 		event = "BufReadPost",
 		opts = {},
 	},
+  {
+    "folke/trouble.nvim",
+    event = "BufReadPost",
+    opts = {},
+  },
+  {
+    "akinsho/toggleterm.nvim",
+    version = "*",
+    config = function()
+      require("toggleterm").setup()
+    end,
+  }
 }
 
 return M

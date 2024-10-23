@@ -12,7 +12,7 @@ window#waybar {
   /* background-color: #181825; */
   background-color: #11111b;
   /* background-color: rgba(24, 24, 37, 0.6); */
-  opacity: 0.8;
+  opacity: 1;
 }
 
 window#waybar.hidden {
