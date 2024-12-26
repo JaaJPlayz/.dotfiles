@@ -19,7 +19,7 @@
         "spacing": 10
     },
     "custom/music": {
-        "format": "  {}",
+        "format": "   {}",
         "escape": true,
         "interval": 5,
         "tooltip": false,
@@ -31,7 +31,7 @@
         "timezone": "America/Sao_Paulo",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": " {:%d/%m/%Y}",
-        "format": " {:%H:%M}"
+        "format": "  {:%H:%M}"
     },
     "backlight": {
         "device": "intel_backlight",
@@ -51,7 +51,7 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon} {volume}%",
+        "format": "{icon}  {volume}%",
         "format-muted": "",
         "format-icons": {
             "default": ["", "", " "]
